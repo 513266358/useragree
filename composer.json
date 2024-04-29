@@ -1,0 +1,23 @@
+{
+    "name": "useragree/useragree-service",
+    "description": "用户协议",
+    "type": "library",
+    "version": "1.0.0",
+    "require": {
+        "php": ">=7.0",
+        "ext-mysqli": "*",
+        "laravel/framework": "^8.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Useragree\\UseragreeMid\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yexiaoping",
+            "email": "demonyxp@vip.qq.com"
+        }
+    ]
+}
